@@ -5,7 +5,7 @@ Midi for React Native
 ### Add the package to your project
 
 ```bash
-bun i react-native-midi
+bun i @itsyoboieltr/react-native-midi
 ```
 
 ### Add the config plugin to app.json
@@ -13,7 +13,7 @@ bun i react-native-midi
 ```json
 {
   "expo": {
-    "plugins": ["react-native-midi"]
+    "plugins": ["@itsyoboieltr/react-native-midi"]
   }
 }
 ```

@@ -1,5 +1,5 @@
 {
-  "name": "react-native-midi",
+  "name": "@itsyoboieltr/react-native-midi",
   "version": "0.1.0",
   "description": "Midi for React Native",
   "main": "build/index.js",
