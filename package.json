@@ -11,9 +11,7 @@
     "test": "expo-module test",
     "prepare": "expo-module prepare",
     "prepublishOnly": "expo-module prepublishOnly",
-    "expo-module": "expo-module",
-    "open:ios": "xed example/ios",
-    "open:android": "open -a \"Android Studio\" example/android"
+    "expo-module": "expo-module"
   },
   "keywords": [
     "react-native",
@@ -30,13 +28,13 @@
   "homepage": "https://github.com/itsyoboieltr/react-native-midi#readme",
   "dependencies": {},
   "devDependencies": {
-    "@types/react": "^18.0.25",
     "expo-module-scripts": "^3.5.1",
-    "expo-modules-core": "^1.12.9"
+    "expo-modules-core": "^1.12.9",
+    "eslint": "8.56.0",
+    "eslint-config-universe": "12.1.0",
+    "prettier": "3.2.5"
   },
   "peerDependencies": {
-    "expo": "*",
-    "react": "*",
-    "react-native": "*"
+    "expo": "*"
   }
 }
