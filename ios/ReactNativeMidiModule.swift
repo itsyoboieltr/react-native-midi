@@ -19,7 +19,7 @@ public class ReactNativeMidiModule: Module {
     AsyncFunction("sendMidiMessage") { (message: [UInt8]) in
       var packetList = MIDIPacketList()
       let packet = MIDIPacketListInit(&packetList)
-      MIDIPacketListAdd(&packetList, MemoryLayout.size(ofValue: packetList), packet, 0, 3, message)
+      MIDIPacketListAdd(&packetList, MemoryLayout.size(ofValue: packetList), packet, 0, message.count, message)
       MIDISend(midiOutputPort, midiNetworkSession.destinationEndpoint(), &packetList)
     }
   }
